@@ -1,0 +1,65 @@
+The repo I used: https://github.com/arash28134/simple-calculator
+
+
+Simple C Calculator
+This is a basic calculator program written in C that performs four arithmetic operations:
+
+Addition
+
+Subtraction
+
+Multiplication
+
+Division
+
+Program Structure and Flow
+The program starts by displaying a menu listing the four operations.
+
+The user is prompted to enter a number (1 to 4) corresponding to the desired operation.
+
+According to the user’s choice, the program asks for two floating-point numbers.
+
+It performs the selected arithmetic operation and prints the result formatted to two decimal places.
+
+If the user enters a number outside the valid range (1–4), the program displays an error message.
+
+Code Breakdown
+Variables
+int menu;
+Stores the operation number entered by the user.
+
+float num1, num2, result;
+Used for the operands and the result. Floats allow decimal numbers.
+
+Main Logic
+Menu Display:
+Printed with printf listing options 1 to 4.
+
+Input:
+Reads user’s operation choice using scanf("%d", &menu);
+
+Switch Statement:
+Executes different cases depending on menu:
+
+Case 1 (Addition):
+Prompts and reads two numbers, computes their sum, and prints the result.
+
+Case 2 (Subtraction):
+Prompts and reads two numbers, computes the difference, and prints the result.
+
+Case 3 (Multiplication):
+Prompts and reads two numbers, computes the product, and prints the result.
+
+Case 4 (Division):
+Prompts and reads two numbers, computes the quotient, and prints the result.
+(Note: There is no division by zero check.)
+
+Default:
+Prints an error message if an invalid menu number is entered.
+
+Limitations & Notes
+No validation on numeric inputs; invalid inputs may cause unexpected behavior.
+
+No check for division by zero, which can cause runtime errors.
+
+The program runs once and exits immediately after one operation.
