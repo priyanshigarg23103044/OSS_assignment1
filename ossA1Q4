@@ -1,0 +1,34 @@
+The repo I used: https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/Simple_Interest.c
+
+Reverse Engineering:
+
+Header Inclusion:
+
+#include <stdio.h>: Includes the Standard Input Output library for using functions like printf and scanf.
+
+Variable Declaration:
+
+Declares four variables: principal, rate, time, and interest, all of type float to store decimal values.
+GeeksforGeeks
++1
+GitHub
++1
+
+User Input:
+
+Uses printf to prompt the user to enter values for principal amount, rate of interest, and time in years.
+
+Uses scanf to read the user's input and store it in the respective variables.
+
+Simple Interest Calculation:
+
+Applies the formula: Simple Interest = (Principal × Rate × Time) / 100 to calculate the interest.
+
+Output:
+
+Uses printf to display the calculated simple interest, formatted to two decimal places.
+GitHub
+
+Return Statement:
+
+return 0; indicates that the program executed successfully.
